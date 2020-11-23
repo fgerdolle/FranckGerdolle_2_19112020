@@ -1,0 +1,22 @@
+@import "Utils/variables";
+@import "Base/_font";
+@import "Pages/body";
+@import "Pages/page-container";
+@import "Pages/header";
+
+body{
+    @include body;
+    font-family: $roboto;
+}
+
+.page-container{
+    @include page-container;
+}
+
+h1{
+    @include Font-title;
+}
+
+header{
+    @include header;
+}

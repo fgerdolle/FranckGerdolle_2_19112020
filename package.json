@@ -1,0 +1,19 @@
+{
+  "name": "franckgerdolle_3_19112020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch main.scss:main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgerdolle/FranckGerdolle_3_19112020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgerdolle/FranckGerdolle_3_19112020/issues"
+  },
+  "homepage": "https://github.com/fgerdolle/FranckGerdolle_3_19112020#readme"
+}

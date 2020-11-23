@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+
+<head>
+    <title>ohmyfood</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/c86141f044.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+
+<body>
+    <div class="page-container">
+        <header>
+            <!-- Title  -->
+            <h1>ohmyfood</h1>
+            <!-- Localisation -->
+
+            <div class="container-header">
+                <div class="logo-text">
+                    <i class="fas fa-map-marker-alt logo-nav"></i>
+                    <span>Paris,Belleville</span>
+                </div>
+            </div>
+
+
+            <!-- Reservation -->
+            <div>
+                <h2>Réservez le menu qui vous convient</h2>
+                <p>
+                    Découvrez des restaurants d'exception, séléctionnés par nos soins.
+                </p>
+            </div>
+            <!-- button explorer -->
+            <button class="btn btn-link btn-xs flex rechercher" type="submit" name="action"
+                value="Explorer nos restorants">
+                Explorer nos restorants
+            </button>
+        </header>
+        <main>
+            <!-- Fonctionnement-->
+            <section>
+                <h2>Fonctionnement</h2>
+                <ol>
+                    <li>
+                        <div class="row-fonctionnement">
+                            <a href="#" class="clic-card">
+                                <div class="card-fonctionnement">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span class="text-card"> Choisissez un restorant</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row-fonctionnement">
+                            <a href="#" class="clic-card">
+                                <div class="card-fonctionnement">
+                                    <i class="fas fa-list-ul"></i>
+                                    <span class="text-card"> Composez votre menu</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row-fonctionnement">
+                            <a href="#" class="clic-card">
+                                <div class="card-fonctionnement">
+                                    <i class="fas fa-store"></i>
+                                    <span class="text-card"> Dégustez au restorant</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+            <!-- Restorants -->
+            <section>
+                <h2>Restaurants</h2>
+                <div class="row-restaurant">
+                    <a href="#" class="clic-card">
+                        <div class="card-resto">
+                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                class="populaire-picture" alt="photo plat palette du goùt" />
+
+                            <h3 class="title">La palette du goùt</h3>
+                            <span class="text-card">Ménilmontant</span>
+                            <div class="liked"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row-restaurant">
+                    <a href="#" class="clic-card">
+                        <div class="card-resto">
+                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                class="populaire-picture" alt="photo plat note enchantée" />
+
+                            <h3 class="title">La note enchantée</h3>
+                            <span class="text-card">Charonne</span>
+                            <div class="liked"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row-restaurant">
+                    <a href="#" class="clic-card">
+                        <div class="card-resto">
+                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                class="populaire-picture" alt="photo plat à la française" />
+
+                            <h3 class="title">À la française</h3>
+                            <span class="text-card">Cité Rouge</span>
+                            <div class="liked"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row-restaurant">
+                    <a href="#" class="clic-card">
+                        <div class="card-resto">
+                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                class="populaire-picture" alt="photo plat délice des sens" />
+
+                            <h3 class="title">Le délice des sens</h3>
+                            <span class="text-card">Folie-Méricourt</span>
+                            <div class="liked"></div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h2>ohmyfood</h2>
+            <!-- propose restaurant -->
+            <div>
+                <i class="fas fa-utensils"></i>
+                <p>Proposer un restorant</p>
+            </div>
+            <!-- partenariat -->
+            <div>
+                <i class="fas fa-hands-helping"></i>
+                <p>Devenir partenaire</p>
+            </div>
+            <!-- Mentions -->
+            <div>
+                <p>Mentions légales</p>
+            </div>
+            <!-- Contact -->
+            <div>
+                <p>Contact</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>

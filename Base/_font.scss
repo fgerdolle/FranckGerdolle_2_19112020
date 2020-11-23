@@ -1,0 +1,12 @@
+@mixin Font-title {
+    font-family: 'Shrikhand', cursive;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+@mixin Font-logo {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+$roboto: "roboto";
