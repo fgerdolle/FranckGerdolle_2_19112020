@@ -1,0 +1,25 @@
+@import "../Utils/variables";
+
+@mixin Font-title {
+    font-family: 'Shrikhand', cursive;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+@mixin Font-logo {
+    font-weight: bold;
+    font-size: 1em;
+    color: $color-black;
+}
+
+@mixin Font-h2-reservation {  
+    font-size: 25px;
+    width: 250px;    
+}
+
+@mixin Font-p-discoveries {
+    font-size: 18px;
+    width: 320px;
+}
+
+$roboto: "roboto";

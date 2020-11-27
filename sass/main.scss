@@ -1,0 +1,19 @@
+@import "Utils/variables";
+@import "Base/_font";
+@import "Layout/body";
+@import "Layout/page-container";
+
+
+
+/*--------------------Title----------------*/
+@import "Layout/h1";
+/*-------------------Header----------------*/
+@import "Layout/header";
+/*-----------Réservez,Découvrez et boutton explorer-----*/
+@import "Pages/reservation";
+/*-------------Section Fonctionnement-------*/
+@import "Pages/section-fonctionnement";
+/*---------------Section Resto-------------*/
+@import "Pages/section-resto";
+/*-------------Footer--------------*/
+@import "Layout/footer";

@@ -1,0 +1,45 @@
+@import "../Utils/variables";
+@import "../Base/font";
+
+.h2-title {
+    margin-top: 100px;
+    margin-left: 22px;
+    text-align: initial;
+}
+
+.card-fonctionnement {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0 0px 16px 0px;
+    margin: 25px 15px 0 15px;
+    text-align: center;
+    width: 330px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: $color-white;
+}
+
+.inside-card {
+    display: inline-block;
+    padding-top: 40px;
+    @include Font-logo;
+}
+
+.logo-fonction {
+    margin: 0 20px 0 20px;
+}
+
+.text-card {
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.number {
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    background: $color-purple;
+    border-radius: 100%;
+    color: white;
+    border: 2px solid $color-purple;
+    width: 25px;
+    height: 25px;
+}

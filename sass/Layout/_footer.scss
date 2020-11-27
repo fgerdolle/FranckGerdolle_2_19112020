@@ -1,0 +1,25 @@
+@import "../Utils/variables";
+@import "../Base/font";
+
+Footer {
+    background-color: $color-background-footer;
+    color: white;
+    text-align: left;
+    & div{
+        margin-left:25px;
+        margin-top: 15px;  
+        font-size: 1em;  
+        & .fa-utensils{
+            margin-right: 18px;
+        }
+        & .fa-hands-helping{
+            margin-right: 10px;
+        }   
+    }
+    & h1 {
+            padding-top: 20px;
+            margin-left:25px;
+            font-size: 1.3em;
+            font-weight: normal;
+        }
+}

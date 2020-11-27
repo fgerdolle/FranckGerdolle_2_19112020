@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
 </head>
 
 <body>
@@ -29,126 +29,141 @@
 
             <!-- Reservation -->
             <div>
-                <h2>Réservez le menu qui vous convient</h2>
-                <p>
+                <h2 id="reservation">Réservez le menu qui vous convient</h2>
+                <p id="paragraph-reservation">
                     Découvrez des restaurants d'exception, séléctionnés par nos soins.
                 </p>
             </div>
             <!-- button explorer -->
-            <button class="btn btn-link btn-xs flex rechercher" type="submit" name="action"
-                value="Explorer nos restorants">
-                Explorer nos restorants
+            <button class="btn btn-link btn-xs explore" type="submit" name="action" value="Explorer nos restaurants">
+                Explorer nos restaurants
             </button>
         </header>
         <main>
             <!-- Fonctionnement-->
             <section>
-                <h2>Fonctionnement</h2>
-                <ol>
-                    <li>
-                        <div class="row-fonctionnement">
-                            <a href="#" class="clic-card">
-                                <div class="card-fonctionnement">
-                                    <i class="fas fa-mobile-alt"></i>
-                                    <span class="text-card"> Choisissez un restorant</span>
-                                </div>
-                            </a>
+                <h2 class="h2-title">Fonctionnement</h2>
+                <div class="row-fonctionnement">
+                    <a href="#" class="clic-card">
+                        <div class="card-fonctionnement">
+                            <div class="inside-card">
+                                <span class="number">1</span>
+                                <i class="fas fa-mobile-alt logo-fonction"></i>
+                                <span class="text-card"> Choisissez un restaurant</span>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="row-fonctionnement">
-                            <a href="#" class="clic-card">
-                                <div class="card-fonctionnement">
-                                    <i class="fas fa-list-ul"></i>
-                                    <span class="text-card"> Composez votre menu</span>
-                                </div>
-                            </a>
+                    </a>
+                </div>
+                <div class="row-fonctionnement">
+                    <a href="#" class="clic-card">
+                        <div class="card-fonctionnement">
+                            <div class="inside-card">
+                                <span class="number">2</span>
+                                <i class="fas fa-list-ul logo-fonction"></i>
+                                <span class="text-card"> Composez votre menu</span>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="row-fonctionnement">
-                            <a href="#" class="clic-card">
-                                <div class="card-fonctionnement">
-                                    <i class="fas fa-store"></i>
-                                    <span class="text-card"> Dégustez au restorant</span>
-                                </div>
-                            </a>
+                    </a>
+                </div>
+                <div class="row-fonctionnement">
+                    <a href="#" class="clic-card">
+                        <div class="card-fonctionnement">
+                            <div class="inside-card">
+                                <span class="number">3</span>
+                                <i class="fas fa-store logo-fonction"></i>
+                                <span class="text-card"> Dégustez au restorant</span>
+                            </div>
                         </div>
-                    </li>
-                </ol>
+                    </a>
+                </div>
+
             </section>
-            <!-- Restorants -->
-            <section>
-                <h2>Restaurants</h2>
+            <!-- Restaurants -->
+            <section class="resto-box">
+                <h2 class="h2-title">Restaurants</h2>
                 <div class="row-restaurant">
                     <a href="#" class="clic-card">
                         <div class="card-resto">
-                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                class="populaire-picture" alt="photo plat palette du goùt" />
-
-                            <h3 class="title">La palette du goùt</h3>
-                            <span class="text-card">Ménilmontant</span>
-                            <div class="liked"></div>
+                            <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="resto-picture"
+                                alt="photo plat palette du goùt" />
+                            <div class="resto-card-text">
+                                <h3>La palette du goùt</h3>
+                                <div class="liked"><i class="far fa-heart"></i></div>
+                                <div>
+                                    <span class="resto-city">Ménilmontant</span>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="row-restaurant">
                     <a href="#" class="clic-card">
                         <div class="card-resto">
-                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                class="populaire-picture" alt="photo plat note enchantée" />
-
-                            <h3 class="title">La note enchantée</h3>
-                            <span class="text-card">Charonne</span>
-                            <div class="liked"></div>
+                            <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" class="resto-picture"
+                                alt="photo plat note enchantée" />
+                            <div class="resto-card-text">
+                                <h3>La note enchantée</h3>
+                                <div class="liked"><i class="far fa-heart"></i></div>
+                                <div>
+                                    <span class="resto-city">Charonne</span>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="row-restaurant">
                     <a href="#" class="clic-card">
                         <div class="card-resto">
-                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                class="populaire-picture" alt="photo plat à la française" />
-
-                            <h3 class="title">À la française</h3>
-                            <span class="text-card">Cité Rouge</span>
-                            <div class="liked"></div>
+                            <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" class="resto-picture"
+                                alt="photo plat à la française" />
+                            <div class="resto-card-text">
+                                <h3 class="french">À la française</h3>
+                                <div class="liked"><i class="far fa-heart"></i></div>
+                                <div>
+                                    <span class="resto-city">Cité Rouge</span>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="row-restaurant">
                     <a href="#" class="clic-card">
                         <div class="card-resto">
-                            <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                class="populaire-picture" alt="photo plat délice des sens" />
-
-                            <h3 class="title">Le délice des sens</h3>
-                            <span class="text-card">Folie-Méricourt</span>
-                            <div class="liked"></div>
+                            <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                                class="resto-picture" alt="photo plat délice des sens" />
+                            <div class="resto-card-text">
+                                <h3>Le délice des sens</h3>
+                                <div class="liked"><i class="far fa-heart"></i></div>
+                                <div>
+                                    <span class="resto-city">Folie-Méricourt</span>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
+
             </section>
         </main>
         <footer>
-            <h2>ohmyfood</h2>
+            <h1>ohmyfood</h1>
+            
             <!-- propose restaurant -->
             <div>
                 <i class="fas fa-utensils"></i>
-                <p>Proposer un restorant</p>
+                <span>Proposer un restorant</span>
             </div>
             <!-- partenariat -->
             <div>
                 <i class="fas fa-hands-helping"></i>
-                <p>Devenir partenaire</p>
+                <span>Devenir partenaire</span>
             </div>
             <!-- Mentions -->
             <div>
-                <p>Mentions légales</p>
+                <span>Mentions légales</span>
             </div>
             <!-- Contact -->
             <div>
-                <p>Contact</p>
+                <span>Contact</span>
             </div>
         </footer>
     </div>

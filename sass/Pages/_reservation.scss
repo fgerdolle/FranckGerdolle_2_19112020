@@ -1,0 +1,19 @@
+@import "../Base/font";
+@import "../Composants/button";
+
+
+#reservation {
+    @include Font-h2-reservation;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+#paragraph-reservation{
+    @include Font-p-discoveries;
+    margin-left: 40px;
+}
+
+.explore {
+    @include Button-explorer;
+}

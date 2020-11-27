@@ -1,0 +1,11 @@
+@import "../Utils/variables";
+
+@mixin Button-explorer {
+    height: 50px;
+    border-radius: 50px;
+    width: 220px;
+    background: linear-gradient(160deg,$color-pink,$color-purple);    
+    border:none;
+    color: $color-white;
+    font-size: 15px;
+}

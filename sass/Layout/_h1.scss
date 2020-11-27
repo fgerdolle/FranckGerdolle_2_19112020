@@ -1,0 +1,4 @@
+@import "../Base/_font";
+h1 {
+    @include Font-title;
+}

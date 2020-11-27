@@ -1,0 +1,37 @@
+@import "../Composants/card-resto";
+@import "../Composants/resto-picture";
+@import "../Composants/text-card-resto";
+
+
+
+.resto-box{
+    background-color: $color-box-resto;
+}
+
+.card-resto {
+    @include Card-resto;
+}
+
+.resto-picture{
+   @include Resto-picture;
+}
+
+.resto-card-text{
+    display: inline-block;   
+}
+
+h3 {
+   @include Text-card-resto
+}
+
+.resto-city{
+    float: left;
+}
+
+.liked{
+    float: right;    
+    font-size: 2em;
+    margin-top: 20px; 
+    color: $color-black;   
+    
+}
