@@ -48,6 +48,7 @@ Header .logo-nav {
   font-size: 18px;
   width: 320px;
   margin-left: 40px;
+  margin-bottom: 35px;
 }
 
 .explore {
@@ -70,7 +71,7 @@ Header .logo-nav {
 .card-fonctionnement {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0 0px 16px 0px;
-  margin: 25px 15px 0 15px;
+  margin: 25px 25px 0 25px;
   text-align: center;
   width: 330px;
   height: 75px;
@@ -84,15 +85,25 @@ Header .logo-nav {
   font-weight: bold;
   font-size: 1em;
   color: black;
+  position: relative;
 }
 
 .logo-fonction {
   margin: 0 20px 0 20px;
 }
 
+.fa-store {
+  color: #9356DC;
+}
+
 .text-card {
   text-decoration: none;
   margin-right: 40px;
+}
+
+.text-card2 {
+  text-decoration: none;
+  margin-right: 50px;
 }
 
 .number {
@@ -102,8 +113,9 @@ Header .logo-nav {
   border-radius: 100%;
   color: white;
   border: 2px solid #9356DC;
-  width: 25px;
-  height: 25px;
+  position: absolute;
+  top: 32px;
+  left: -45px;
 }
 
 /*---------------Section Resto-------------*/
@@ -119,6 +131,7 @@ Header .logo-nav {
   margin-bottom: 40px;
   margin-left: 20px;
   background-color: white;
+  position: relative;
 }
 
 .resto-picture {
@@ -128,6 +141,18 @@ Header .logo-nav {
   height: 175px;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
+}
+
+.text-nouveau {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  background-color: #99e2d0;
+  color: #139273;
+  font-weight: bold;
+  width: 80px;
+  height: 30px;
+  padding: 8px 0 0px 0;
 }
 
 .resto-card-text {
@@ -153,12 +178,16 @@ h3.french {
   margin-top: 20px;
   color: black;
 }
+.liked:hover {
+  background: linear-gradient(160deg, #FF79DA, #9356DC);
+}
 
 /*-------------Footer--------------*/
 Footer {
   background-color: #353535;
   color: white;
   text-align: left;
+  height: 225px;
 }
 Footer div {
   margin-left: 25px;
@@ -176,6 +205,9 @@ Footer h1 {
   margin-left: 25px;
   font-size: 1.3em;
   font-weight: normal;
+}
+Footer #contact {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

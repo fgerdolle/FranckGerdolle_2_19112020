@@ -5,6 +5,7 @@ Footer {
     background-color: $color-background-footer;
     color: white;
     text-align: left;
+    height: 225px;
     & div{
         margin-left:25px;
         margin-top: 15px;  
@@ -22,4 +23,7 @@ Footer {
             font-size: 1.3em;
             font-weight: normal;
         }
+    & #contact{
+        margin-bottom: 30px;
+    }
 }
