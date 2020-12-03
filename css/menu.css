@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "roboto";
+}
+
+.page-container {
+  text-align: center;
+}
+
+/*--------------------Title----------------*/
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: bold;
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+#arrow {
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+#header-picture {
+  width: 375px;
+  height: 250px;
+}
+
+/*-------------Main Title------------------*/
+.main-block {
+  display: inline-block;
+}
+
+#main-title {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.liked {
+  float: right;
+  font-size: 1.5em;
+  color: black;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+/*------------Main Menu---------------*/
+.menu-title {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+.card-menu {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 335px;
+  height: 80px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.menu-card-text {
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 10px;
+  display: inline;
+}
+.menu-card-text h3 {
+  margin: 0;
+}
+
+.menu-plus {
+  float: left;
+  font-size: 15px;
+  width: 280px;
+}
+
+.menu-price {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/*--------Button Commander------*/
+.explore {
+  height: 50px;
+  border-radius: 50px;
+  width: 220px;
+  background: linear-gradient(160deg, #FF79DA, #9356DC);
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+/*-------------Footer----------------------*/
+Footer {
+  background-color: #353535;
+  color: white;
+  text-align: left;
+  height: 225px;
+}
+Footer div {
+  margin-left: 25px;
+  margin-top: 15px;
+  font-size: 1em;
+}
+Footer div .fa-utensils {
+  margin-right: 18px;
+}
+Footer div .fa-hands-helping {
+  margin-right: 10px;
+}
+Footer h1 {
+  padding-top: 20px;
+  margin-left: 25px;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+Footer #contact {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=menu.css.map */

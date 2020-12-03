@@ -1,4 +1,19 @@
 @import "../Base/_font";
 h1 {
     @include Font-title;
+    margin-right: 20px;
+}
+
+#arrow{
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#header-picture{
+    width: 375px;
+    height: 250px;
+    
 }

@@ -1,0 +1,39 @@
+@import "../Composants/menu-title";
+@import "../Composants/button";
+
+.card-menu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 335px;
+    height: 80px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.menu-card-text {
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 10px;
+    display: inline;
+
+    & h3 {
+        margin: 0;
+    }
+}
+.menu-plus {
+    float: left;
+    font-size: 15px;
+    width: 280px;
+}
+
+.menu-price {
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/*--------Button Commander------*/
+.explore {
+    @include Button-explorer;
+}

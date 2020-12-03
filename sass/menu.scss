@@ -1,0 +1,15 @@
+@import "Utils/variables";
+@import "Base/_font";
+@import "Layout/body";
+@import "Layout/page-container";
+
+
+/*--------------------Title----------------*/
+@import "Layout/h1" ;
+
+/*-------------Main Title------------------*/
+@import "Pages/main-block";
+/*------------Main Menu---------------*/
+@import "Pages/section-menu";
+/*-------------Footer----------------------*/
+@import "Layout/footer" ;
