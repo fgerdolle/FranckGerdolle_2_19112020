@@ -36,14 +36,14 @@ h1 {
 #main-title {
   float: left;
   margin-left: 10px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .liked {
   float: right;
   font-size: 1.5em;
   color: black;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-right: 20px;
 }
 
@@ -51,7 +51,25 @@ h1 {
 .menu-title {
   text-align: left;
   margin-left: 20px;
+  margin-bottom: 20px;
+}
+.menu-title h2 {
   font-weight: normal;
+  margin: 50px 0 0 0;
+}
+.menu-title .underline {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #99e2d0;
+  margin: 2px;
+}
+
+.box-menu {
+  border-radius: 20px 20px 0 0;
+  background-color: white;
+  position: relative;
+  top: -50px;
 }
 
 .card-menu {
@@ -64,6 +82,10 @@ h1 {
   background-color: white;
 }
 
+.big-menu {
+  height: 90px;
+}
+
 .menu-card-text {
   text-align: left;
   padding-top: 10px;
@@ -71,19 +93,24 @@ h1 {
   display: inline;
 }
 .menu-card-text h3 {
-  margin: 0;
+  margin: 0 0 5px 10px;
 }
 
 .menu-plus {
   float: left;
   font-size: 15px;
   width: 280px;
+  margin-left: 10px;
 }
 
 .menu-price {
   float: right;
-  margin-right: 20px;
+  margin-right: 15px;
   font-weight: bold;
+}
+
+.big-price {
+  margin-top: 15px;
 }
 
 /*--------Button Commander------*/
@@ -95,6 +122,9 @@ h1 {
   border: none;
   color: white;
   font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
 }
 
 /*-------------Footer----------------------*/

@@ -1,5 +1,19 @@
+@import "../Utils/variables";
+
 .menu-title{
     text-align: left;
     margin-left: 20px;
-    font-weight: normal;
+    margin-bottom: 20px;
+    
+    & h2{
+        font-weight: normal;
+        margin: 50px 0 0 0;
+    }
+    & .underline{
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: $color-background-new;
+        margin:2px
+    }   
 }
