@@ -13,6 +13,20 @@ h1 {
   font-family: "Shrikhand", cursive;
   font-weight: bold;
   font-size: 2em;
+  margin-right: 20px;
+}
+
+#arrow {
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+#header-picture {
+  width: 375px;
+  height: 250px;
 }
 
 /*-------------------Header----------------*/
@@ -178,8 +192,21 @@ h3.french {
   margin-top: 20px;
   color: black;
 }
-.liked:hover {
+
+.heart2:before {
+  content: "";
   background: linear-gradient(160deg, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.liked:hover .heart1, .liked .heart2 {
+  display: none;
+}
+
+.liked:hover .heart2 {
+  display: inline-block;
 }
 
 /*-------------Footer--------------*/
