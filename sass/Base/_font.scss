@@ -14,12 +14,12 @@
 
 @mixin Font-h2-reservation {  
     font-size: 25px;
-    width: 250px;    
+    max-width: 250px;    
 }
 
 @mixin Font-p-discoveries {
     font-size: 18px;
-    width: 320px;
+    max-width: 320px;
 }
 
 $roboto: "roboto";

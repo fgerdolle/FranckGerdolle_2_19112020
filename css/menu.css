@@ -5,6 +5,12 @@ body {
 
 .page-container {
   text-align: center;
+  margin: auto;
+}
+@media only screen and (min-width: 600px) {
+  .page-container {
+    max-width: 600px;
+  }
 }
 
 /*--------------------Title----------------*/
@@ -35,6 +41,7 @@ h1 {
 
 #main-title {
   float: left;
+  margin: auto;
   margin-left: 10px;
   margin-top: 20px;
 }
@@ -132,6 +139,7 @@ Footer {
   color: white;
   text-align: left;
   height: 225px;
+  margin: auto;
   margin-top: 60px;
 }
 Footer div {

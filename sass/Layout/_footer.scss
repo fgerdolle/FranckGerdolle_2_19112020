@@ -6,6 +6,7 @@ Footer {
     color: white;
     text-align: left;
     height: 225px;
+    margin: auto;
     margin-top: 60px;
     & div {
         margin-left: 25px;
@@ -26,11 +27,5 @@ Footer {
     }
     & #contact {
         margin-bottom: 30px;
-    }
-}
-
-@media only screen and (min-width: 667px) {
-    footer {
-        text-align: center;
     }
 }

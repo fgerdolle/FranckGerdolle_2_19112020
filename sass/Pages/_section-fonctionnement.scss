@@ -2,6 +2,7 @@
 @import "../Base/font";
 
 .h2-title {
+    margin: auto;
     margin-top: 100px;
     margin-left: 22px;
     text-align: initial;
@@ -10,12 +11,18 @@
 .card-fonctionnement {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 0 0px 16px 0px;
-    margin: 25px 25px 0 25px;
+    margin:auto;
+    margin-bottom: 25px;
     text-align: center;
-    width: 330px;
+    max-width: 330px;
     height: 75px;
     border-radius: 30px;
     background-color: $color-white;
+
+    
+}
+.row-fonctionnement{
+    margin: 0 30px 0 30px;
 }
 
 .inside-card {
@@ -23,6 +30,7 @@
     padding-top: 40px;
     @include Font-logo;
     position: relative;
+    width: 100%;
 }
 
 .logo-fonction {
@@ -34,11 +42,11 @@
 
 .text-card {
     text-decoration: none;
-    margin-right: 40px;    
+       
 }
 .text-card2{
     text-decoration: none;
-    margin-right: 50px; 
+    
 }
 .number {
     padding: 5px 10px 5px 10px;
@@ -49,27 +57,6 @@
     border: 2px solid $color-purple;
     position: absolute;
     top: 32px;
-    left: -45px;
+    left: -18px;
 }
 
-@media only screen and (min-width: 667px) {
-    .h2-title{
-        margin-left: 40px;
-    }
-    .row-fonctionnement{
-        margin-left: 150px;
-    }
-}
-@media only screen and (min-width: 768px) {
-    .row-fonctionnement{
-        margin-left: 200px;
-    }
-}
-@media only screen and (min-width: 1024px) {
-    .h2-title{
-        margin-left: 60px;
-    }
-    .row-fonctionnement{
-        margin-left: 350px;
-    }
-}
