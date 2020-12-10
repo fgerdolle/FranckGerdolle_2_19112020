@@ -29,6 +29,12 @@ h1 {
   height: 250px;
 }
 
+@media only screen and (min-width: 768px) {
+  h1 {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+}
 /*-------------------Header----------------*/
 Header .container-header {
   display: flex;
@@ -50,6 +56,10 @@ Header .logo-nav {
 }
 
 /*-----------Réservez,Découvrez et boutton explorer-----*/
+#bloc-reservation {
+  width: 100%;
+}
+
 #reservation {
   font-size: 25px;
   width: 250px;
@@ -75,6 +85,39 @@ Header .logo-nav {
   font-size: 15px;
 }
 
+@media only screen and (min-width: 667px) {
+  #reservation {
+    width: 400px;
+    margin-left: 140px;
+  }
+
+  #paragraph-reservation {
+    width: 600px;
+    margin-left: 30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #reservation {
+    margin-left: 200px;
+  }
+
+  #paragraph-reservation {
+    margin-left: 90px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #reservation {
+    margin-left: 350px;
+  }
+
+  #paragraph-reservation {
+    margin-left: 240px;
+  }
+
+  .explore {
+    margin-left: 40px;
+  }
+}
 /*-------------Section Fonctionnement-------*/
 .h2-title {
   margin-top: 100px;
@@ -132,6 +175,29 @@ Header .logo-nav {
   left: -45px;
 }
 
+@media only screen and (min-width: 667px) {
+  .h2-title {
+    margin-left: 40px;
+  }
+
+  .row-fonctionnement {
+    margin-left: 150px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .row-fonctionnement {
+    margin-left: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .h2-title {
+    margin-left: 60px;
+  }
+
+  .row-fonctionnement {
+    margin-left: 350px;
+  }
+}
 /*---------------Section Resto-------------*/
 .resto-box {
   background-color: #f6f6f6;
@@ -142,7 +208,7 @@ Header .logo-nav {
   width: 335px;
   height: 250px;
   border-radius: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-left: 20px;
   background-color: white;
   position: relative;
@@ -209,12 +275,32 @@ h3.french {
   display: inline-block;
 }
 
+@media only screen and (min-width: 667px) {
+  .h2-title {
+    margin-left: 40px;
+  }
+
+  .row-restaurant {
+    margin-left: 150px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .row-restaurant {
+    margin-left: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .row-restaurant {
+    margin-left: 350px;
+  }
+}
 /*-------------Footer--------------*/
 Footer {
   background-color: #353535;
   color: white;
   text-align: left;
   height: 225px;
+  margin-top: 60px;
 }
 Footer div {
   margin-left: 25px;
@@ -235,6 +321,12 @@ Footer h1 {
 }
 Footer #contact {
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 667px) {
+  footer {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

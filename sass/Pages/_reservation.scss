@@ -1,6 +1,9 @@
 @import "../Base/font";
 @import "../Composants/button";
 
+#bloc-reservation {
+    width: 100%;
+}
 
 #reservation {
     @include Font-h2-reservation;
@@ -9,7 +12,7 @@
     margin-top: 30px;
 }
 
-#paragraph-reservation{
+#paragraph-reservation {
     @include Font-p-discoveries;
     margin-left: 40px;
     margin-bottom: 35px;
@@ -17,4 +20,34 @@
 
 .explore {
     @include Button-explorer;
+}
+
+@media only screen and (min-width: 667px) {
+    #reservation {
+        width: 400px;
+        margin-left: 140px;
+    }
+    #paragraph-reservation{
+        width: 600px;
+        margin-left: 30px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #reservation {
+        margin-left: 200px;
+    }
+    #paragraph-reservation{       
+        margin-left: 90px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #reservation {
+        margin-left: 350px;
+    }
+    #paragraph-reservation{       
+        margin-left: 240px;
+    }
+    .explore{
+        margin-left: 40px;
+    }
 }

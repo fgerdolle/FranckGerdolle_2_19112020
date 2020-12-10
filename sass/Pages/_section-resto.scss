@@ -9,7 +9,7 @@
     width: 335px;
     height: 250px;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 20px;
     background-color: white;
     position: relative;
@@ -75,3 +75,21 @@ h3 {
     display: inline-block;
 }
 
+@media only screen and (min-width: 667px) {
+    .h2-title{
+        margin-left: 40px;
+    }
+    .row-restaurant{
+        margin-left: 150px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .row-restaurant{
+        margin-left: 200px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .row-restaurant{
+        margin-left: 350px;
+    }
+}

@@ -51,3 +51,25 @@
     top: 32px;
     left: -45px;
 }
+
+@media only screen and (min-width: 667px) {
+    .h2-title{
+        margin-left: 40px;
+    }
+    .row-fonctionnement{
+        margin-left: 150px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .row-fonctionnement{
+        margin-left: 200px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .h2-title{
+        margin-left: 60px;
+    }
+    .row-fonctionnement{
+        margin-left: 350px;
+    }
+}

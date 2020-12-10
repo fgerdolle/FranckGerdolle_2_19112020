@@ -6,24 +6,31 @@ Footer {
     color: white;
     text-align: left;
     height: 225px;
-    & div{
-        margin-left:25px;
-        margin-top: 15px;  
-        font-size: 1em;  
-        & .fa-utensils{
+    margin-top: 60px;
+    & div {
+        margin-left: 25px;
+        margin-top: 15px;
+        font-size: 1em;
+        & .fa-utensils {
             margin-right: 18px;
         }
-        & .fa-hands-helping{
+        & .fa-hands-helping {
             margin-right: 10px;
-        }   
+        }
     }
     & h1 {
-            padding-top: 20px;
-            margin-left:25px;
-            font-size: 1.3em;
-            font-weight: normal;
-        }
-    & #contact{
+        padding-top: 20px;
+        margin-left: 25px;
+        font-size: 1.3em;
+        font-weight: normal;
+    }
+    & #contact {
         margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 667px) {
+    footer {
+        text-align: center;
     }
 }
