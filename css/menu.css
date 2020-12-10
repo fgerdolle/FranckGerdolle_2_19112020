@@ -32,6 +32,7 @@ h1 {
 #header-picture {
   width: 375px;
   height: 250px;
+  width: 100%;
 }
 
 /*-------------Main Title------------------*/
@@ -74,23 +75,25 @@ h1 {
 
 .box-menu {
   border-radius: 20px 20px 0 0;
+  margin: auto;
   background-color: white;
   position: relative;
   top: -50px;
+  width: 100%;
 }
 
 .card-menu {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 335px;
+  max-width: 335px;
   height: 80px;
   border-radius: 20px;
+  margin: auto;
   margin-bottom: 20px;
-  margin-left: 20px;
   background-color: white;
 }
 
 .big-menu {
-  height: 90px;
+  height: 100px;
 }
 
 .menu-card-text {
@@ -98,6 +101,7 @@ h1 {
   padding-top: 10px;
   margin-left: 10px;
   display: inline;
+  max-width: 335px;
 }
 .menu-card-text h3 {
   margin: 0 0 5px 10px;
@@ -106,18 +110,27 @@ h1 {
 .menu-plus {
   float: left;
   font-size: 15px;
-  width: 280px;
+  max-width: 280px;
   margin-left: 10px;
 }
 
 .menu-price {
   float: right;
+  margin: auto;
   margin-right: 15px;
   font-weight: bold;
 }
 
 .big-price {
+  margin: auto;
+  margin-right: 15px;
   margin-top: 15px;
+}
+@media only screen and (max-width: 330px) and (min-width: 320px) {
+  .big-price {
+    margin: 0;
+    margin-top: 15px;
+  }
 }
 
 /*--------Button Commander------*/
@@ -136,10 +149,10 @@ h1 {
 /*-------------Footer----------------------*/
 Footer {
   background-color: #353535;
+  width: 100%;
   color: white;
   text-align: left;
   height: 225px;
-  margin: auto;
   margin-top: 60px;
 }
 Footer div {
@@ -161,6 +174,12 @@ Footer h1 {
 }
 Footer #contact {
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 667px) {
+  footer {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=menu.css.map */
