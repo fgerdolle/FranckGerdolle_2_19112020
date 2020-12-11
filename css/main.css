@@ -33,6 +33,7 @@ h1 {
 #header-picture {
   width: 375px;
   height: 250px;
+  width: 100%;
 }
 
 /*-------------------Header----------------*/
@@ -238,10 +239,10 @@ h3.french {
 /*-------------Footer--------------*/
 Footer {
   background-color: #353535;
+  width: 100%;
   color: white;
   text-align: left;
   height: 225px;
-  margin: auto;
   margin-top: 60px;
 }
 Footer div {
@@ -263,6 +264,12 @@ Footer h1 {
 }
 Footer #contact {
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 667px) {
+  footer {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

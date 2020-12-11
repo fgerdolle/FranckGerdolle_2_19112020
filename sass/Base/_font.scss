@@ -4,6 +4,9 @@
     font-family: 'Shrikhand', cursive;
     font-weight: bold;
     font-size: 2em;
+    @media only screen and (min-width: 200px) and (max-width: 370px) {
+        font-size: 1.6em;
+    }
 }
 
 @mixin Font-logo {
