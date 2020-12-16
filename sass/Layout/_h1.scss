@@ -2,6 +2,7 @@
 h1 {
     @include Font-title;
     margin-right: 20px;
+    
 }
 
 #arrow{
@@ -16,6 +17,11 @@ h1 {
     width: 375px;
     height: 250px;
     width: 100%;
+    object-fit: cover;
+    @media only screen and (min-width: 600px) {
+        width: 100%; 
+        height: 400px;
+    }
     
 }
 

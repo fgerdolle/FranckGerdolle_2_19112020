@@ -18,6 +18,11 @@
     margin: auto;
     margin-bottom: 20px;
     background-color: white;
+    @media only screen and (min-width: 600px) {
+       max-width: 50%; 
+       
+       
+    }
 }
 .big-menu {
     height: 100px;
