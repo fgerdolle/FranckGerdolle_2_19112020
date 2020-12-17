@@ -110,7 +110,7 @@ h1 {
 }
 @media only screen and (min-width: 600px) {
   .card-menu {
-    max-width: 50%;
+    min-width: 50%;
   }
 }
 
@@ -132,7 +132,7 @@ h1 {
 .menu-plus {
   float: left;
   font-size: 15px;
-  max-width: 280px;
+  max-width: 265px;
   margin-left: 10px;
 }
 
@@ -147,12 +147,6 @@ h1 {
   margin: auto;
   margin-right: 15px;
   margin-top: 15px;
-}
-@media only screen and (max-width: 330px) and (min-width: 320px) {
-  .big-price {
-    margin: 0;
-    margin-top: 15px;
-  }
 }
 
 /*--------Button Commander------*/
