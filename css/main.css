@@ -125,7 +125,7 @@ Header .logo-nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0 0px 16px 0px;
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   text-align: center;
   max-width: 330px;
   height: 75px;
@@ -174,15 +174,42 @@ Header .logo-nav {
   background: #9356DC;
   border-radius: 100%;
   color: white;
-  border: 2px solid #9356DC;
+  width: 10px;
+  height: 20px;
   position: absolute;
   top: 32px;
   left: -18px;
 }
 
+/*-------section desktop----------*/
+@media only screen and (min-width: 1000px) {
+  .display-desktop {
+    display: flex;
+  }
+
+  .row-fonctionnement {
+    flex: auto;
+    margin: auto;
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .card-fonctionnement {
+    max-width: 80%;
+  }
+}
 /*---------------Section Resto-------------*/
+.h2-title-resto {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 22px;
+  text-align: initial;
+  padding-top: 60px;
+}
+
 .resto-box {
   background-color: #f6f6f6;
+  height: 1300px;
 }
 
 .card-resto {
@@ -272,6 +299,30 @@ h3.french {
   display: inline-block;
 }
 
+/*-------section desktop----------*/
+@media only screen and (min-width: 1000px) {
+  .display-desktop {
+    display: flex;
+  }
+
+  .row-restaurant {
+    flex: 2;
+    margin: auto;
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .card-resto {
+    flex: auto;
+    max-width: 65%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .resto-box {
+    height: 750px;
+  }
+}
 /*-------------Footer--------------*/
 Footer {
   background-color: #353535;
@@ -279,9 +330,9 @@ Footer {
   color: white;
   text-align: left;
   height: 225px;
-  margin-top: 60px;
 }
 Footer div {
+  margin: auto;
   margin-left: 25px;
   margin-top: 15px;
   font-size: 1em;

@@ -19,7 +19,7 @@
     margin-bottom: 20px;
     background-color: white;
     @media only screen and (min-width: 600px) {
-       min-width: 50%; 
+        min-width: 50%;
     }
 }
 .big-menu {
@@ -54,7 +54,6 @@
     margin: auto;
     margin-right: 15px;
     margin-top: 15px;
-    
 }
 
 /*--------Button Commander------*/
@@ -62,4 +61,18 @@
     @include Button-explorer;
     margin-top: 50px;
     font-size: 20px;
+}
+
+/*-------section desktop----------*/
+
+@media only screen and (min-width: 1000px) {
+    .display-desktop {
+        display: flex;
+    }
+    .row-menu {
+        flex: auto;
+        margin: auto;
+        margin-left: 10px;
+        width: 90%;
+    }
 }

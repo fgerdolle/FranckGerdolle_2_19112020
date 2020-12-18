@@ -162,6 +162,19 @@ h1 {
   font-size: 20px;
 }
 
+/*-------section desktop----------*/
+@media only screen and (min-width: 1000px) {
+  .display-desktop {
+    display: flex;
+  }
+
+  .row-menu {
+    flex: auto;
+    margin: auto;
+    margin-left: 10px;
+    width: 90%;
+  }
+}
 /*-------------Footer----------------------*/
 Footer {
   background-color: #353535;
